@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+  <title> </title>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    div {
+      text-align: right;
+    }
+    #button {
+      color: white;
+      background-color: blue;
+    }
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9af7f7;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="">hello</a></li>
+    <li><a href="">hell</a></li>
+    <li><a href="">he</a></li>
+  </ul>
+  <hr>
+  <h1>Create Allocation Priority</h1>
+  <hr>
+  <h4>Product Name</h4>
+  <input type="text">
+  <h4>Allocation Priority</h4>
+  <input type="text">
+  <p>Charge Inclusion</p>
+  <table style="width: 70%">
+    <tr>
+      <td style="width: 5%">&#9744;</td>
+      <th>Charge Code</th>
+      <th>Priority</th>
+    </tr>
+    <tr>
+      <td>&#9744;</td>
+      <td>InstallmentPeincipleCompound</td>
+      <td><input type="text" style="width: 98%" /></td>
+    </tr>
+    <tr>
+      <td>&#9744;</td>
+      <td>InstallmentintenestCompound</td>
+      <td><input type="text" style="width: 98%" /></td>
+    </tr>
+    <tr>
+      <td>&#9744;</td>
+      <td>LatePaymentPenalty</td>
+      <td><input type="text" style="width: 98%" /></td>
+    </tr>
+    <tr>
+      <td>&#9744;</td>
+      <td>DisbursalCharge</td>
+      <td><input type="text" style="width: 98%" /></td>
+    </tr>
+    <tr>
+      <td>&#9744;</td>
+      <td>ProcessingFee</td>
+      <td><input type="text" style="width: 98%" /></td>
+    </tr>
+  </table>
+  <div>
+    <button id="button">Save</button>
+    <button id="button">Save & Request Approval</button>
+  </div>
+</body>
